@@ -10,8 +10,28 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
+.flex-container
+{
+  display: flex;
+  padding: 16px 32px;
+  justify-content: space-around;
+  gap: 52px;
+}
+.card
+{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: center;
+  max-width: 200px;
+}
+.text
+{
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
